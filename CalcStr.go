@@ -81,7 +81,7 @@ func main() {
 			break
 		}
 
-		if str4 != "cheatcode543210string" {
+		if str4 != "cheatcode543210string" { //уникальная строка которую случайно угадать невозможно
 			errorString = ("Учтите, Вы ввели слишком много. " + BasicErrorMsg)
 			break
 		}
@@ -97,7 +97,7 @@ func main() {
 		}
 
 		if !isOperandString(str1) {
-			errorString = "Ваш как минимум первый операнд не вписывается в рабочий диапазон,\nвводите строку в кавычка кавычках.\n" + BasicErrorMsg
+			errorString = "Ваш как минимум первый операнд не вписывается в рабочий диапазон,\nвводите сначала строку в кавычках.\n" + BasicErrorMsg
 			break
 		}
 
